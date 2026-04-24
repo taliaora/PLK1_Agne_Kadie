@@ -93,6 +93,8 @@ RNA_DESEQ2_DIR <- file.path(RNA_DIR, "deseq2")
 # RNA: full BAM stem (from processed_files/) mapped to biological identity
 # NOTE: The mapping below is based on the sample sheet you provided.
 # Stems marked PLACEHOLDER need to be confirmed with Natalia.
+###THIS IS A WRONG ANNOTATION NEEDS FIXING ACCORDING TO THE EXCEL https://swanseauniversity-my.sharepoint.com/:x:/r/personal/l_francis_swansea_ac_uk/_layouts/15/Doc.aspx?sourcedoc=%7B40F65BAE-8115-415F-A09F-24D37E766C66%7D&file=RNA-seq_and_ATAC_seq_directories_for_KDMi_and_PLK1.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&wdOrigin=APPHOME-WEB.DIRECT%2CAPPHOME-WEB.UNAUTH%2CAPPHOME-WEB.SHELL.SIGNIN%2CAPPHOME-WEB.FILEBROWSER.RECENT&wdPreviousSession=41755b44-2218-4cf2-836b-34a4e52fc40d&wdPreviousSessionSrc=AppHomeWeb&ct=1777028613271
+
 RNA_SAMPLE_MAP <- tribble(
   ~file_stem,                                          ~sample_id,           ~cell_line, ~condition, ~replicate,
   # CAOV3 BI6727 (RNA_CA_T*)
